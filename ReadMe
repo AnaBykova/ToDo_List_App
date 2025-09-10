@@ -1,5 +1,62 @@
-| Level            | Features                                 | Detailed Subtasks                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| ---------------- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Beginner**     | **Static To-Do App (HTML, CSS, JS)**     | - Setup project with `index.html`, `style.css`, `script.js` <br> - Create UI: input, button, list container <br> - Add task (update DOM) <br> - Delete task (remove from DOM) <br> - Edit task (inline edit/save) <br> - Style with CSS (responsive, hover effects)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| **Intermediate** | **React + Express (Frontend + Backend)** | - Setup project structure: `client/` (React) + `server/` (Express) <br> - Backend: install `express`, `cors`, `nodemon`; setup `server.js` <br> - API routes: `GET/POST/PUT/DELETE /tasks` (in-memory array) <br> - React: create components (`App`, `TaskList`, `TaskItem`, `TaskForm`) <br> - Fetch tasks from backend (axios/fetch) <br> - Handle Add/Edit/Delete/Complete actions <br> - Style with CSS/Tailwind/Bootstrap                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Advanced**     | **Production-Grade Full Stack**          | **Database**: <br> - Install & configure DB (MongoDB, PostgreSQL, or SQLite) <br> - Create `Task` model with fields: `id, userId, text, completed, createdAt, updatedAt` <br> - Replace array with DB queries <br><br> **Authentication**: <br> - Create `User` model <br> - Register/Login routes (`bcrypt`, JWT or sessions) <br> - Auth middleware to protect routes <br><br> **Multi-User Support**: <br> - Each task linked to `userId` <br> - Only return logged-in user’s tasks <br><br> **Advanced Features**: <br> - Filtering (completed/active) <br> - Searching (by keyword) <br> - Sorting (date/text) <br> - Pagination (`page, limit`) <br><br> **Deployment**: <br> - Deploy backend (Render/Heroku/Railway) <br> - Deploy frontend (Netlify/Vercel) <br> - Connect deployed frontend ↔ backend <br><br> **TypeScript / Next.js**: <br> - Add types/interfaces (`Task`, `User`, API responses) <br> - Convert backend & frontend to TS (`.ts/.tsx`) <br> - OR migrate to Next.js with API routes & NextAuth.js <br> - Deploy to Vercel for production |
+# 📌 Full-Stack To-Do List Project
+
+<details>
+<summary>Beginner</summary>
+
+- [ ] Setup project with `index.html`, `style.css`, `script.js`
+- [ ] Create UI: input, button, list container
+- [ ] Add task (update DOM)
+- [ ] Delete task (remove from DOM)
+- [ ] Edit task (inline edit/save)
+- [ ] Style with CSS (responsive, hover effects)
+
+</details>
+
+<details>
+<summary>Intermediate</summary>
+
+- [ ] Setup project structure: `client/` (React) + `server/` (Express)
+- [ ] Backend: install `express`, `cors`, `nodemon`; setup `server.js`
+- [ ] API routes: `GET/POST/PUT/DELETE /tasks` (in-memory array)
+- [ ] React: create components (`App`, `TaskList`, `TaskItem`, `TaskForm`)
+- [ ] Fetch tasks from backend (axios/fetch)
+- [ ] Handle Add/Edit/Delete/Complete actions
+- [ ] Style with CSS/Tailwind/Bootstrap
+
+</details>
+
+<details>
+<summary>Advanced</summary>
+
+**Database**
+- [ ] Install & configure DB (MongoDB, PostgreSQL, or SQLite)
+- [ ] Create `Task` model (`id, userId, text, completed, createdAt, updatedAt`)
+- [ ] Replace array with DB queries
+
+**Authentication**
+- [ ] Create `User` model
+- [ ] Register/Login routes (`bcrypt`, JWT or sessions)
+- [ ] Auth middleware to protect routes
+
+**Multi-User Support**
+- [ ] Each task linked to `userId`
+- [ ] Only return logged-in user’s tasks
+
+**Advanced Features**
+- [ ] Filtering (completed/active)
+- [ ] Searching (by keyword)
+- [ ] Sorting (date/text)
+- [ ] Pagination (`page, limit`)
+
+**Deployment**
+- [ ] Deploy backend (Render/Heroku/Railway)
+- [ ] Deploy frontend (Netlify/Vercel)
+- [ ] Connect deployed frontend ↔ backend
+
+**TypeScript / Next.js**
+- [ ] Add types/interfaces (`Task`, `User`, API responses)
+- [ ] Convert backend & frontend to TS (`.ts/.tsx`)
+- [ ] OR migrate to Next.js with API routes & NextAuth.js
+- [ ] Deploy to Vercel for production
+
+</details>
